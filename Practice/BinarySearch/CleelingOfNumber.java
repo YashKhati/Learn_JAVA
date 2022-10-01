@@ -9,7 +9,7 @@ public class CellingOfNumber
         }
         static  int Celling(int[] ar, int target)
         {
-            if(target>ar.length-1)
+            if(target>ar[ar.length-1])
                 return  -1;
             int start=0;
             int end=ar.length - 1;
